@@ -1,6 +1,6 @@
 # Databurst Spider
 
-Databurst Spider is a Scrapy spider that can be used for scraping data from web pages and writing it to a CSV file. It provides a flexible and customizable approach to extract information from different websites.
+Databurst Spider is a Scrapy spider that can be used for scraping data from web pages and writing it to a CSV file. It extract information from databurst websites.
 
 ## Installation
 
