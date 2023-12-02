@@ -40,8 +40,8 @@ class DataburstSpider(scrapy.Spider):
             loader.add_xpath('text_content', 'string()')
             yield loader.load_item()
             try:
-                with open(self.file_name, 'a') as csvfile:
-                    writer = csv.writer(csvfile)
+                with open(self.file_name, 'a') as csv_file:
+                    writer = csv.writer(csv_file)
                     writer.writerow(loader.get_collected_values('text_content'))
             except csv.Error:
                 print(CsvMessage.CSV_ERROR)
