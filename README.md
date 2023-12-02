@@ -30,13 +30,11 @@ To use Databurst Spider, you need to have Python and pip installed on your syste
 
    ````shell
    pipenv shell
-   ```
 
 2. Run the spider:
 
    ````shell
    scrapy crawl databurst_spider
-   ```
 
 3. The scraped data will be saved in a CSV file specified by the `file_name` attribute.
 
