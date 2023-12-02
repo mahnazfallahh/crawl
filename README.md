@@ -4,7 +4,7 @@ Databurst Spider is a Scrapy spider that can be used for scraping data from web 
 
 ## Installation
 
-To use Databurst Spider, you need to have Python and pip installed on your system. You can install Databurst Spider and its dependencies using pipenv, a popular Python dependency management tool.
+To use Databurst Spider, you need to have Python and pip installed on your system. You can install Databurst Spider and its dependencies using pipenv.
 
 1. Clone the repository:
 
