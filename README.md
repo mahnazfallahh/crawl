@@ -10,19 +10,19 @@ To use Databurst Spider, you need to have Python and pip installed on your syste
 
    ````shell
    git clone https://github.com/mahnazfallahh/crawl.git
-   ```
+   
 
 2. Change directory to the project folder:
 
    ````shell
    cd databurst
-   ```
+   
 
 3. Install the dependencies with pipenv:
 
    ````shell
    pipenv install
-   ```
+   
 
 ## Usage
 
